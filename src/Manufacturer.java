@@ -1,19 +1,19 @@
-public class Provider {
+public class Manufacturer {
 
     private String name;
     private String address  ;
     private String phoneNumber;
 
-    public Provider(String name, String address, String phoneNumber) {
+    public Manufacturer(String name, String address, String phoneNumber) {
         this.name = name;
         this.address = address;
         this.phoneNumber = phoneNumber;
     }
 
-    public Provider() {
-        this.name = "Pesho";
-        this.address = "Burgas";
-        this.phoneNumber = "0888666111";
+    public Manufacturer() {
+        this.name = "Sunkataaaaaa";
+        this.address = "Gruduu mn q";
+        this.phoneNumber = "17171717171717";
     }
 
     public String getName() {

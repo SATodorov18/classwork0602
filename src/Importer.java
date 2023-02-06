@@ -1,19 +1,19 @@
-public class Provider {
+public class Importer {
 
     private String name;
     private String address  ;
     private String phoneNumber;
 
-    public Provider(String name, String address, String phoneNumber) {
+    public Importer(String name, String address, String phoneNumber) {
         this.name = name;
         this.address = address;
         this.phoneNumber = phoneNumber;
     }
 
-    public Provider() {
-        this.name = "Pesho";
-        this.address = "Burgas";
-        this.phoneNumber = "0888666111";
+    public Importer() {
+        this.name = "Sunkatabaaaa";
+        this.address = "Sredec mn q";
+        this.phoneNumber = "1717171717";
     }
 
     public String getName() {

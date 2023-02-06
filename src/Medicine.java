@@ -41,6 +41,10 @@ public class Medicine {
 
     @Override
     public String toString() {
-        return super.toString();
+        return "Medicine{" +
+                "name='" + name + '\'' +
+                ", price=" + price +
+                ", expirationDate='" + expirationDate + '\'' +
+                '}';
     }
 }
